@@ -3,11 +3,11 @@ package v02;
 public class Guitar {
 
 	private String serialNumber;
-	private String builder;
+	private Builder builder;
 	private String model;
-	private String type;
-	private String backWood;
-	private String topWood;
+	private Type type;
+	private Wood backWood;
+	private Wood topWood;
 	private double price;
 
 	public double getPrice() {
@@ -22,28 +22,28 @@ public class Guitar {
 		return serialNumber;
 	}
 
-	public String getBuilder() {
-		return builder;
-	}
-
 	public String getModel() {
 		return model;
 	}
 
-	public String getType() {
+	public Type getType() {
 		return type;
 	}
 
-	public String getBackWood() {
+	public Wood getBackWood() {
 		return backWood;
 	}
 
-	public String getTopWood() {
+	public Wood getTopWood() {
 		return topWood;
 	}
 
-	public Guitar(String serialNumber, double price, String builder, String model, String type, String backWood,
-			String topWood) {
+	public Builder getBuilder() {
+		return builder;
+	}
+	
+	public Guitar(String serialNumber, double price, Builder builder, String model, Type type, Wood backWood,
+			Wood topWood) {
 		super();
 		this.serialNumber = serialNumber;
 		this.builder = builder;
