@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+import v01.Guitar;
+
 public class Inventory {
 	private List<Guitar> guitars;
 

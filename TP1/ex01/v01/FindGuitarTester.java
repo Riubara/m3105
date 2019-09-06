@@ -1,5 +1,7 @@
 package v01;
 
+import v01.Guitar;
+
 public class FindGuitarTester {
 
   public static void main(String[] args) {
